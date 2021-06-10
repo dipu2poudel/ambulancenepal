@@ -90,8 +90,23 @@ a:focus {
   color: #e84c3d;
   text-decoration: none;
 }
+@media only screen and (max-width: 700px) {
+  .popup_bar .fa-phone {
+    padding: 0.5rem !important;
+    font-size: 1.7rem !important;
+  }
+  .popup_bar .fa-phone .element {
+    margin-left: 0rem !important;
+  }
+  header div .header_emergency {
+    font-size: 1.5em !important;
+    right: 1rem !important;
+    color: rgb(255, 255, 255);
+    margin-top: 0.5rem !important;
+  }
+}
 .popup_bar {
-  background-color: rgb(236, 216, 32);
+  background-color: #f3c633;
   margin: 0px !important;
   padding: 0px !important;
   display: flex;
@@ -105,12 +120,7 @@ a:focus {
 .popup_bar .fa-phone .element {
   margin-left: 1.5rem;
 }
-.popup_bar .fa-phone .element_last {
-  position: absolute;
-  right: 1rem;
-  top: 1rem;
-  color: rgb(0, 0, 0);
-}
+
 .center {
   text-align: center;
   margin: 0 auto;
