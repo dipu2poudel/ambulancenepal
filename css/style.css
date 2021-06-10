@@ -98,12 +98,12 @@ a:focus {
 }
 .popup_bar .fa-phone {
   padding: 0.5rem;
-  margin-left: 3rem;
+  margin-left: 2rem;
   color: rgb(68, 68, 68);
   font-size: 2rem;
 }
 .popup_bar .fa-phone .element {
-  margin-left: 2rem;
+  margin-left: 1.5rem;
 }
 .popup_bar .fa-phone .element_last {
   position: absolute;
